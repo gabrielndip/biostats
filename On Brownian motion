@@ -1,0 +1,23 @@
+Introduction to test statistics and brownian motion 
+--------------------------------------------------- 
+Brownian motion, also known as Wiener process, possesses several key properties that define its behavior. 
+Here are some important properties of Brownian motion:
+standard Brownian motion is a random process  X={Xt:t∈[0,∞)} with state space  R
+  
+1. Randomness: Brownian motion is a random process, meaning that its future behavior is unpredictable.
+    X0=0 (with probability 1).
+2. Continuous paths: Brownian motion is characterized by its continuous paths, which means that the motion is observed as a continuous trajectory over time. 
+   This property makes it suitable for modeling continuous processes.
+    
+3. Gaussian increments: Brownian motion exhibits Gaussian (normal) increments, which means that the change in the position of the particle at any given time interval follows a normal distribution. This property makes Brownian motion useful for modeling phenomena where small, random changes occur over time.
+    Xt is normally distributed with mean 0 and variance t for each t∈(0,∞).
+ 
+4. Stationary increments: Brownian motion has stationary increments, which means that the distribution of the increments does not depend on the starting point or the current position of the particle. This property allows for the application of various mathematical techniques and simplifies the analysis of the process.
+    That is, for s,t∈[0,∞) with s<t, the distribution of Xt−Xs is the same as the distribution of Xt−s
+    
+5. Independent increments: The increments of Brownian motion are independent of each other. This means that the change in position over a specific time interval is      not influenced by previous or future increments, making Brownian motion a memoryless process.
+    With probability 1,  t↦Xt is continuous on  [0,∞).
+    
+6. Scaling property: Brownian motion exhibits a scaling property, known as self-similarity. This property implies that if the time scale is expanded or contracted, the statistical properties of the motion remain the same. In other words, Brownian motion looks the same at different time scales.
+
+7. Diffusive behavior: One of the most notable properties of Brownian motion is its diffusive behavior. Over time, the motion of the particle undergoing Brownian motion spreads out, resulting in a gradual increase in its mean squared displacement.
